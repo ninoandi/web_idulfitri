@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Selamat Hari Raya Idul Fitri 1446 H</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      background-color: #f4f9f4;
+      color: #333;
+      transition: opacity 0.4s ease;
+    }
+
+    header {
+      background: #2E7D32;
+      padding: 1rem;
+      text-align: center;
+      color: #fff;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 18px;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      padding: 10px 15px;
+      border-radius: 30px;
+      background-color: #388E3C;
+      transition: background-color 0.3s ease;
+    }
+
+    nav ul li a:hover {
+      background-color: #66BB6A;
+    }
+
+    .container {
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+      text-align: center;
+    }
+
+    section {
+      padding: 40px 0;
+      display: none;
+      opacity: 0;
+      transition: opacity 0.5s ease;
+    }
+
+    section.active {
+      display: block;
+      opacity: 1;
+    }
+
+    h2, h3 {
+      color: #2E7D32;
+    }
+
+    .img-gif img {
+      width: 200px;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    .profile-pic img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 20px;
+      border: 3px solid #2E7D32;
+    }
+
+    .social-icons a {
+      font-size: 30px;
+      color: #fff;
+      margin: 10px;
+      text-decoration: none;
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      line-height: 50px;
+      border-radius: 50%;
+      text-align: center;
+    }
+
+    .social-icons .instagram {
+      background-color: #E4405F;
+    }
+
+    .social-icons .tiktok {
+      background-color: #000;
+    }
+
+    .social-icons a:hover {
+      opacity: 0.8;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #2E7D32;
+      color: #fff;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+
+    @media (max-width: 600px) {
+      nav ul {
+        flex-direction: column;
+        gap: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <audio autoplay loop>
+    <source src="https://www.bensound.com/bensound-music/bensound-acousticbreeze.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <header>
+    <h1>Selamat Hari Raya Idul Fitri 1446 H</h1>
+    <nav>
+      <ul>
+        <li><a href="#dashboard" onclick="showPage('dashboard')"><i class="fas fa-user"></i> Home</a></li>
+        <li><a href="#home" onclick="showPage('home')"><i class="fas fa-home"></i> Ucapan</a></li>
+        <li><a href="#about" onclick="showPage('about')"><i class="fas fa-info-circle"></i> About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="dashboard" class="active">
+    <div class="container">
+      <h2>Assalamualaikum, Saya Nino Mengucapkan</h2>
+      <div class="img-gif">
+        <img src="img/beruang jempol.gif" alt="Semangat GIF" />
+      </div>
+      <p>Selamat Hari Raya Idul Fitri 1446 Hijriah! Semoga kebahagiaan, keberkahan, dan ridho Allah SWT selalu menyertai kita semua.</p>
+      <p>Aamiin Ya Rabbal Alamiin</p>
+    </div>
+  </section>
+
+  <section id="home">
+    <div class="container">
+      <h2>🌙✨ Taqabbalallahu Minna Wa Minkum 🌙✨</h2>
+        <div class="img-gif">
+        <img src="img/coklat dua.gif" alt="Semangat GIF" />
+      </div>
+      <p>Semoga segala amal ibadah kita selama bulan Ramadan diterima oleh Allah SWT dan menjadi berkah bagi kehidupan kita.</p>
+      <p>Di hari yang suci ini, mari kita saling memaafkan, membersihkan hati, dan mempererat tali silaturahmi. Mohon maaf lahir dan batin! 🙏</p>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <h2>Profile</h2>
+      <div class="profile-pic">
+        <img src="img/IMG-20240622-WA0015.jpg" alt="Foto Profil" />
+      </div>
+      <h3>Follow My Social Media</h3>
+      <div class="social-icons">
+        <a href="https://www.instagram.com/beniqnoandi_20" target="_blank" class="instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.tiktok.com/@nino_andi" target="_blank" class="tiktok"><i class="fa-brands fa-tiktok"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Ucapan Hari Raya Idul Fitri 1446 H</p>
+  </footer>
+
+  <script>
+    function showPage(pageId) {
+      const sections = document.querySelectorAll('section');
+      sections.forEach(section => section.classList.remove('active'));
+      document.getElementById(pageId)?.classList.add('active');
+    }
+  </script>
+</body>
+</html>
